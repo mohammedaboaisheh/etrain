@@ -1,0 +1,115 @@
+.welcome_section .container{
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+.welcome_section .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.welcome_section .navbar .logo img{
+    width: 5rem;
+}
+.welcome_section .navbar .link ul{
+    list-style: none;
+}
+.welcome_section .navbar .link ul li{
+    display: inline;
+    margin: 0rem 1.75rem 0rem 1.75rem;
+}
+.active {
+    color: white;
+    background-image: linear-gradient(to left,#ee390f 0%,#f9b700 51%,#ee390f 100%);
+    padding: 1rem;
+    border-radius: 50px;
+}
+.welcome_section .welcome-massage .image img{
+    width: 50rem;
+}
+.welcome_section .welcome-massage{
+    margin-right: 4rem ;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.welcome_section .welcome-massage .text p{
+    margin-bottom: 4rem;
+
+}
+.welcome_section .welcome-massage .text a{
+    text-decoration-line: none;
+    margin-right: 5rem;
+
+}
+.welcome_section .welcome-massage .text h5{
+    font-size: 1rem;
+    color: #556172;
+}
+
+.welcome_section .welcome-massage .text h1{
+    font-size: 3rem;
+    color:#0c2e60;
+}
+.section2 .row-card .card h3{
+    color:darkblue;
+    font-weight: bold;
+}
+.section2 .container{
+    margin-right: 10rem;
+    margin-left: 10rem;
+    text-align: center;
+}
+.section2 .row-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section2 .row-card .icon img{
+    width: 70px;
+    height: 70px;
+}
+.section2 .row-card .card{
+    border: 1px solid #f0f4f6;
+    width:250px;
+    height: 250px;
+    padding-top: 4rem;
+}
+.section2 .row-card .card .link a{
+    text-decoration-line: none;
+}
+.section2 .row-card .card .link{
+    margin-top: 3rem;
+}
+.section3 .mid-massage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 4rem ;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+.section3 .mid-massage img{
+    width: 50rem;
+}
+.section3 .mid-massage .text-2{
+    margin-top: 8rem;
+}
+.section3 .mid-massage .text-2 h1{
+    font-size: 3rem;
+    color:#0c2e60;
+}
+.section3 .mid-massage .text-2 .link{
+    margin-top: 2rem;
+
+}
+.section3 .mid-massage .text-2 .link .active{
+ padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.section3 .mid-massage .text-2 .link a{
+    text-decoration-line: none;
+}
